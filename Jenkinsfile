@@ -16,10 +16,10 @@ pipeline {
                  sh "mvn test"
             }
         }
-        stage('Deploy') {
-             steps {
-                 sh "mvn deploy"
-            }
-        }
+//         stage('Deploy') {
+//              steps {
+//                  sh "mvn deploy"
+//             }
+//         } możliwość deploya jedynie po podłączeniu serwera zewnętrznego
     }
 }
