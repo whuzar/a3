@@ -10,4 +10,8 @@ public class A3Application {
         SpringApplication.run(A3Application.class, args);
     }
 
+    public static int elo (int x, int y){
+        return x * y;
+    }
+
 }
